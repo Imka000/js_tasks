@@ -7,25 +7,20 @@ if (x === 7){
 
 let a = 1;
 let b = 3;
-if (a <= 1){
-    alert(1);
-} else if (b >= 3){
-    alert(3);
-} else{
-    alert(2);
+if (a <= 1 && b >= 3){
+    alert(a + b);
+}else{
+    alert(a - b);
 }
 
 const time = 46;
 if ( time >= 0 && time <= 14 ) {
     alert('В первую четверть.');
-}
-if (time >= 15 && time <= 30 ) {
+} else if (time >= 15 && time <= 30 ) {
     alert('Во вторую четверть.');
-}
-if ( time >= 31 && time <= 45 ) {
+} else if ( time >= 31 && time <= 45 ) {
     alert('В третью четверть.');
-}
-if ( time >= 46 && time <= 59 ) {
+} else if ( time >= 46 && time <= 59 ) {
     alert('В четвертую четверть.');
 } else{
     alert('Значение не попадает в диапазон от 0 до 59')
