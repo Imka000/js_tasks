@@ -2,8 +2,8 @@ const btn_danger = document.querySelector('#notification-danger-btn');
 const btn_success = document.querySelector('#notification-success-btn');
 
 const showNotification = (options) => {
-    const div = document.createElement('div');
-    div.innerHTML = '<div class="alert-success">hello world</div>';
+    const div = '<div class="alert-success">hello world</div>';
+    div.innerHTML = div;
     document.body.prepend(div);
 
     setTimeout(() => {

@@ -1,0 +1,25 @@
+.div1{
+    width: 300px;
+    color: white;
+    height: 20px;
+    background-color: chocolate;
+}
+
+.div2{
+    width: 300px;
+    color: white;
+    height: 20px;
+    background-color: black;
+}
+
+.div3{
+    width: 300px;
+    color: white;
+    height: 20px;
+    background-color: wheat;
+}
+
+.red{
+    background-color: red;
+}
+
